@@ -484,7 +484,9 @@
     width: 25% !important;
     padding: 2.5% 5% !important;
     font-size: .8rem !important;
-    
+  }
+}
+
 :root {
   --primary-color: #009ACF;
   --gradient-color-top: #19191E;
