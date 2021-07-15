@@ -14,10 +14,10 @@
 
 body
 {
-    color: #fff;
     background: linear-gradient(var(--gradient-color-top) 0%, var(--gradient-color-bottom) 25%, var(--gradient-color-bottom) 100%);
     background-repeat: no-repeat;
     background-attachment: fixed;
+    box-sizing: border-box;
 }
 
 .main
@@ -57,9 +57,10 @@ body
 
 .overall
 {
-    padding: 0 12%;
+    padding: 10% 12% 0;
     margin: 0;
     box-sizing: border-box;
+    color: white;
 }
 
 .title
@@ -242,11 +243,11 @@ body
     }
 }
 
-@media only screen and (max-width:300px)
+@media only screen and (max-width:500px)
 {
     .overall
     {
-        padding: 0 5%;
+        padding: 20% 5%;
     }
 
     .title
