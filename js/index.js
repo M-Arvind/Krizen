@@ -5,7 +5,7 @@ const dropdown = $(".dropdown");
 const body = $("body");
 let menuopen = false;
 
-
+// menu btn action
 menu_btn.click(function(){
     if(!menuopen){
         menu_btn.addClass('open');
