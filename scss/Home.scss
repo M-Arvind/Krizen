@@ -30,18 +30,10 @@ body {
 
 .hero {
     width: 100%;
+    height: 100vh;
     position: relative;
 
-    .black_background {
-        background-color: black;
-        opacity: 70%;
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-    }
-    &__image {
+    video {
         width: 100%;
         height: 100%;
         object-fit: cover;
@@ -102,7 +94,6 @@ body {
                 }
 
                 .event__overview {
-                    font-weight: 700;
                     letter-spacing: 0.5px;
                     text-decoration: none;
                     color: white;

@@ -1,16 +1,22 @@
 .main
 {
   color: white;
-  height: 100%;
+  width: 100%;
   background: linear-gradient(var(--gradient-color-top) 0%, var(--gradient-color-bottom) 25%, var(--gradient-color-bottom) 100%);
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  padding: 3% 7%;
+  padding: 5% 12%;
+}
+
+.mainContent {
+  width: 100%;
+  margin: 0 auto;
+  max-width: 1600px;
 }
 
 .title
 {
   display: flex;
+  justify-content: space-between;
+  align-items: center;
   padding: 5% 0% 0%;
 }
 
@@ -26,43 +32,39 @@
   background: var(--primary-color);
   color: #fff;
   text-decoration: none;
-  margin: auto;
-  margin-right: 0;
-  padding: .8% 1.6%;
-  border-radius: .1em;
+  padding: .5rem 1.5rem;
+  border-radius: 2px;
+  letter-spacing: 0.5px;
 }
 
-.aboutTitle
+.aboutTitle,
+.detailsTitle,
+.contactsTitle
 {
   font-weight: 500;
-  font-size: 1.8rem;
+  font-size: 1.5rem;
+  letter-spacing: 1.5px;
   margin-top: 50px;
   font-family: 'Montserrat', sans-serif;
 }
 
-.aboutContent
+.aboutContent,
+.contactsContent
 {
   font-weight: 200;
-  text-justify: auto;
   text-align: justify;
   text-justify: inter-word;
-  font-size: 1.2rem;
-  margin-top: 40px;
-  font-family: 'Roboto Condensed', sans-serif;
-}
-
-.detailsTitle
-{
-  font-weight: 500;
-  font-size: 1.8rem;
+  text-indent: 3rem;
+  font-size: 1.1rem;
+  line-height: 1.8rem;
   margin-top: 30px;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Roboto Condensed', sans-serif;
 }
 
 .roundsTitle
 {
-  font-weight: 300;
-  font-size: 1.8rem;
+  font-weight: 400;
+  font-size: 1.2rem;
   margin-top: 30px;
   font-family: 'Montserrat', sans-serif;
 }
@@ -70,159 +72,78 @@
 .roundsContent
 {
   font-weight: 200;
-  text-justify: auto;
+  font-size: 1.1rem;
+  text-indent: 3rem;
   text-align: justify;
-  text-justify: inter-word;
-  font-size: 1.2rem;
-  margin-top: 40px;
+  line-height: 1.8rem;
+  margin-top: 20px;
   margin-left: 4%;
   font-family: 'Roboto Condensed', sans-serif;
 }
 
-.contactsTitle
-{
-  font-weight: 500;
-  font-size: 1.8rem;
-  margin-top: 30px;
-  font-family: 'Montserrat', sans-serif;
-}
 
-.contentsContent
-{
-  font-weight: 200;
-  text-justify: auto;
-  text-align: justify;
-  text-justify: inter-word;
-  font-size: 1.2rem;
-  margin-top: 40px;
-  font-family: 'Roboto Condensed', sans-serif;
-}
-
-@media only screen and (max-width: 700px) 
+@media only screen and (max-width: 800px) 
 {
     .main
     {
-        color: white;
-        height: 100%;
-        background: linear-gradient(var(--gradient-color-top) 0%, var(--gradient-color-bottom) 25%, var(--gradient-color-bottom) 100%);
-        background-repeat: no-repeat;
-        background-attachment: fixed;
-        padding: 15% 7%;
+        padding: 8% 7%;
     }
     .title
     {
-        display: block;
+        flex-direction: column;
+        gap: 1.5rem;
     }
     .heading
     {
-        font-size: 1.8rem;
-        text-align: center;
-        font-weight: 500;
-        font-family: 'Montserrat', sans-serif;
+        font-size: 2.2rem;
     }
 
-    .register 
+    .aboutTitle,
+    .detailsTitle,
+    .contactsTitle
     {
-        background: var(--primary-color);
-        color: #fff;
-        text-decoration: none;
-        position: absolute;
-        padding: .5%, 1%;
-        left: 50%;
-        margin-top: 23px;
-        margin-left: -30px;
-    }
 
-    .aboutTitle
-    {
-        font-weight: 300;
         font-size: 1.3rem;
-        margin-top: 60px;
-        font-family: 'Montserrat', sans-serif;
+        letter-spacing: 1.5px;
     }
 
-    .aboutContent
-    {
-        font-weight: 200;
-        text-justify: auto;
-        text-align: justify;
-        text-justify: inter-word;
-        font-size: 1rem;
-        margin-top: 20px;
-        font-family: 'Roboto Condensed', sans-serif;
-    }
-
-    .detailsTitle
-    {
-        font-weight: 300;
-        font-size: 1.3rem;
-        margin-top: 30px;
-        font-family: 'Montserrat', sans-serif;
+    .aboutContent,
+    .contactsContent {
+      font-size: 1rem;
+      line-height: 1.5rem;
     }
 
     .roundsTitle
     {
-        font-weight: 300;
-        font-size: 1.3rem;
-        margin-top: 30px;
-        font-family: 'Montserrat', sans-serif;
+        font-size: 1.1rem;
     }
 
     .roundsContent
     {
-        font-weight: 200;
-        text-justify: auto;
-        text-align: justify;
-        text-justify: inter-word;
         font-size: 1rem;
-        margin-top: 20px;
         margin-left: 8%;
-        font-family: 'Roboto Condensed', sans-serif;
     }
 
-    .contactsTitle
-    {
-        font-weight: 300;
-        font-size: 1.3rem;
-        margin-top: 30px;
-        font-family: 'Montserrat', sans-serif;
-    }
-
-    .contentsContent
-    {
-        font-weight: 200;
-        text-justify: auto;
-        text-align: justify;
-        text-justify: inter-word;
-        font-size: 1rem;
-        margin-top: 20px;
-        font-family: 'Roboto Condensed', sans-serif;
-    }
 
 }
 
-@media only screen and (min-width: 1000px) 
+// @media only screen and (min-width: 1000px) 
+// {
+//     .main
+//     {
+//         color: white;
+//         height: 100%;
+//         background: linear-gradient(var(--gradient-color-top) 0%, var(--gradient-color-bottom) 25%, var(--gradient-color-bottom) 100%);
+//         background-repeat: no-repeat;
+//         background-attachment: fixed;
+//         padding: 13% 10%;
+//     }
+// }
+@media only screen and (max-width: 639px) 
 {
     .main
     {
-        color: white;
-        height: 100%;
-        background: linear-gradient(var(--gradient-color-top) 0%, var(--gradient-color-bottom) 25%, var(--gradient-color-bottom) 100%);
-        background-repeat: no-repeat;
-        background-attachment: fixed;
-        padding: 13% 7%;
-    }
-}
-@media only screen and (min-width: 639px) 
-{
-    .main
-    {
-        color: white;
-        height: 100%;
-        background: linear-gradient(var(--gradient-color-top) 0%, var(--gradient-color-bottom) 25%, var(--gradient-color-bottom) 100%);
-        background-repeat: no-repeat;
-        background-attachment: fixed;
-        padding: 5% 7%;
+        padding: 15% 7%;
     }
 }
 
