@@ -230,7 +230,7 @@
 }
 
 .navigation .logo {
-  width: 70px;
+  width: 40px;
 }
 
 .navigation .nav {
@@ -426,6 +426,12 @@
 }
 
 @media screen and (max-width: 823px) {
+  .navigation {
+    padding: 2% !important;
+  }
+  .navigation .logo {
+    width: 30px;
+  }
   .navigation .phone__nav {
     display: block;
   }
@@ -436,7 +442,10 @@
 
 @media screen and (max-width: 1025px) {
   .navigation {
-    padding: 1% 2%;
+    padding: 1% 2.5%;
+  }
+  .navigation .logo {
+    width: 25px;
   }
   .navigation .nav {
     gap: 2rem;

@@ -10,7 +10,7 @@
     align-items: center;
 
     .logo {
-        width: 70px;
+        width: 40px;
     }
 
     .nav {
@@ -69,7 +69,7 @@
             }
 
             &:focus .dropdown {
-                visibility: hidden ;
+                visibility: hidden;
             }
         }
     }
@@ -164,25 +164,33 @@
 
 @media screen and (max-width: 823px) {
     .navigation {
+        padding: 2% !important;
+        .logo {
+            width: 30px;
+        }
         .phone__nav {
             display: block;
         }
-    
+
         .nav {
             display: none;
         }
     }
 }
 
-@media screen and (max-width: 1025px){
+@media screen and (max-width: 1025px) {
     .navigation {
-        padding: 1% 2%;
+        padding: 1% 2.5%;
+
+        .logo {
+            width: 25px;
+        }
 
         .nav {
             gap: 2rem;
 
             .dropdown {
-                display: none!important;
+                display: none !important;
             }
         }
     }
