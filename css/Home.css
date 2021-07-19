@@ -724,20 +724,6 @@
   }
 }
 
-/* @media only screen and (max-width: 600px) 
-{
-  .title
-  {
-    display: flex;
-  }
-  .heading
-  {
-    font-size: 1.8rem;
-    text-align: center;
-    font-weight: 500;
-    font-family: 'Montserrat', sans-serif;
-  }
-} */
 :root {
   --primary-color: #009ACF;
   --gradient-color-top: #19191E;
