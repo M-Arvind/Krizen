@@ -745,7 +745,7 @@ body {
 
 .hero {
   width: 100%;
-  height: 100vh;
+  background-color: #20202D;
   position: relative;
 }
 
