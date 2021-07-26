@@ -69,6 +69,12 @@
   font-family: 'Montserrat', sans-serif;
 }
 
+.listsContent
+{
+  margin-left: 4%;
+  text-indent: 1rem;
+}
+
 .roundsContent
 {
   font-weight: 200;
@@ -118,7 +124,13 @@
 
     .roundsTitle
     {
-        font-size: 1.1rem;
+      font-size: 1.1rem;
+    }
+
+    .listsContent
+    {
+      margin-left: 5%;
+      text-indent: 0;
     }
 
     .roundsContent
