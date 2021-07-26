@@ -549,10 +549,10 @@
   font-weight: 200;
   text-align: justify;
   text-justify: inter-word;
-  text-indent: 3rem;
   font-size: 1.1rem;
   line-height: 1.8rem;
-  margin-top: 30px;
+  margin-top: 1rem;
+  margin-left: 4%;
   font-family: 'Roboto Condensed', sans-serif;
 }
 
@@ -563,15 +563,23 @@
   font-family: 'Montserrat', sans-serif;
 }
 
+.listsContent {
+  margin-left: 4%;
+  text-indent: 1rem;
+}
+
 .roundsContent {
   font-weight: 200;
   font-size: 1.1rem;
-  text-indent: 3rem;
   text-align: justify;
   line-height: 1.8rem;
   margin-top: 20px;
   margin-left: 4%;
   font-family: 'Roboto Condensed', sans-serif;
+}
+
+.roundsContent li {
+  margin-bottom: 1rem;
 }
 
 @media only screen and (max-width: 800px) {
@@ -598,6 +606,10 @@
   }
   .roundsTitle {
     font-size: 1.1rem;
+  }
+  .listsContent {
+    margin-left: 5%;
+    text-indent: 0;
   }
   .roundsContent {
     font-size: 1rem;
