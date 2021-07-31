@@ -59,6 +59,13 @@
                 h3 {
                     font-size: 1.2rem;
                 }
+
+                .info__mail {
+                    a {
+                        text-decoration: none;
+                        color: black;
+                    }
+                }
                 .info__mail,
                 .info__number {
                     display: flex;
@@ -113,6 +120,12 @@
                 flex-direction: column;
                 align-items: center;
                 padding-right: 5%;
+                .info__mail {
+                    a {
+                        text-decoration: none;
+                        color: black;
+                    }
+                }
                 .info__mail,
                 .info__number {
                     display: flex;
