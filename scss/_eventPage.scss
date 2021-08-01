@@ -22,13 +22,15 @@
     .cards-content {
         display: flex;
         flex-wrap: wrap;
-        column-gap: 5rem;
-        row-gap: 6rem;
+        // column-gap: 5rem;
+        // row-gap: 6rem;
         justify-content: center;
+        margin: -5rem 0 0 -5rem;
         .event-card {
             overflow: hidden;
             width: 21rem;
             border-radius: 8px;
+            margin: 5rem 0 0 5rem;
             .event-img {
                 img {
                     width: 100%;
@@ -75,9 +77,11 @@
         padding: 15% 5% !important;
     }
     .cards-content {
-        row-gap: 4rem !important;
+        // row-gap: 4rem !important;
+        margin: -4rem 0 0 -4rem!important;
         .event-card {
             width: 270px !important;
+            margin: 4rem 0 0 4rem!important;
             .card-details {
                 padding: 8% 10% !important;
                 h4 {
@@ -104,10 +108,12 @@
         padding: 8% 5% !important;
     }
     .cards-content {
-        column-gap: 3rem !important;
-        row-gap: 4rem !important;
+        // column-gap: 3rem !important;
+        // row-gap: 4rem !important;
+        margin: -4rem 0 0 -4rem!important;
         .event-card {
             width: 250px !important;
+            margin: 4rem 0 0 4rem!important;
             .card-details {
                 padding: 6% 10% !important;
                 h4 {
@@ -137,10 +143,12 @@
         padding: 8% 5% !important;
     }
     .cards-content {
-        column-gap: 4rem !important;
-        row-gap: 4rem !important;
+        // column-gap: 4rem !important;
+        // row-gap: 4rem !important;
+        margin: -4rem 0 0 -4rem!important;
         .event-card {
             width: 250px !important;
+            margin: 4rem 0 0 4rem!important;
             .card-details {
                 padding: 7% !important;
                 h4 {

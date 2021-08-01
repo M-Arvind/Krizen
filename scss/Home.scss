@@ -54,7 +54,7 @@ body {
     padding: 10% 0;
     display: flex;
     flex-direction: column;
-    gap: 8rem;
+    // gap: 8rem;
     background-color: #20202d;
 
     .second {
@@ -73,7 +73,6 @@ body {
         width: 100%;
         max-width: 1600px;
         margin: 0 auto;
-
         &__image {
             width: 50em;
             // height: 300px;
@@ -93,15 +92,16 @@ body {
                 display: flex;
                 flex-direction: column;
                 align-items: center;
-                gap: 1rem;
+                // gap: 1rem;
 
                 .event__title {
                     font-size: 2rem;
+                    margin-bottom: 1rem;
                 }
 
                 .event__description {
                     line-height: 1.5rem;
-                    margin-bottom: 0.5rem;
+                    margin-bottom: 1.5rem;
                 }
 
                 .event__overview {
@@ -147,17 +147,20 @@ body {
 }
 
 @media screen and (max-width: 1024px) {
-    .events__section {
-        gap: 5rem !important;
-    }
+    // .events__section {
+    //     // gap: 5rem !important;
+
+    // }
     .event {
         flex-direction: column;
         align-items: center;
-        gap: 3rem !important;
+        // gap: 3rem !important;
+        margin-bottom: 4rem!important;
         padding: 0 !important;
 
         .event__image {
             width: 45rem;
+            margin-bottom: 3rem;
         }
     }
 
