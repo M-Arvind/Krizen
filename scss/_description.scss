@@ -59,6 +59,15 @@
   font-family: "Roboto Condensed", sans-serif;
 }
 
+.contactsContent {
+  p {
+    a {
+      text-decoration: none;
+      color: white;
+    }
+  }
+}
+
 .roundsTitle {
   font-weight: 400;
   font-size: 1.2rem;
