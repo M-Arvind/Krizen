@@ -32,7 +32,7 @@
                 margin-right: 4rem;
                 h3 {
                     font-size: 1.2rem;
-                    margin-bottom: .5rem;
+                    margin-bottom: 0.5rem;
                 }
 
                 a {
@@ -40,7 +40,7 @@
                     font-size: 0.9rem;
                     color: black;
                     opacity: 80%;
-                    margin-bottom: .5rem;
+                    margin-bottom: 0.5rem;
 
                     &:hover {
                         opacity: 100%;
@@ -104,10 +104,9 @@
             flex-direction: column;
             // gap: 2rem;
 
-
             .top__content {
                 display: flex;
-                justify-content: center;
+                justify-content: space-around;
                 margin-bottom: 2rem;
                 a {
                     text-decoration: none;
@@ -156,12 +155,11 @@
 }
 
 @media screen and (max-width: 568px) {
-
     .footer__content {
-        display: none!important;
+        display: none !important;
     }
 
     .footer__phone {
-        display: flex!important;
+        display: flex !important;
     }
 }
