@@ -2,7 +2,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap");
 .footer__section {
   width: 100%;
-  padding: 5%;
+  padding: 3% 5%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -88,6 +88,9 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .footer__section .footer__content .footer__contact .contact__info {
