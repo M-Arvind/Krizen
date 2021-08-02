@@ -50,7 +50,7 @@
 .footer__section .footer__content .events__links .non-technical__links h3,
 .footer__section .footer__content .events__links .workshop__links h3 {
   font-size: 1.2rem;
-  margin-bottom: .5rem;
+  margin-bottom: 0.5rem;
 }
 
 .footer__section .footer__content .events__links .Technical__links a,
@@ -60,7 +60,7 @@
   font-size: 0.9rem;
   color: black;
   opacity: 80%;
-  margin-bottom: .5rem;
+  margin-bottom: 0.5rem;
 }
 
 .footer__section .footer__content .events__links .Technical__links a:hover,
@@ -145,9 +145,8 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
   margin-bottom: 2rem;
 }
 
@@ -701,7 +700,7 @@
   font-family: "Roboto Condensed", sans-serif;
 }
 
-.contactsContent p a {
+.contactsContent a {
   text-decoration: none;
   color: white;
 }
