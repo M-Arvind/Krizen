@@ -879,7 +879,6 @@ body {
 }
 
 .events__section .second {
-  padding-left: 100px;
   padding-right: 0 !important;
 }
 
@@ -894,7 +893,6 @@ body {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  padding-right: 100px;
   width: 100%;
   max-width: 1600px;
   margin: 0 auto 10rem;
@@ -917,6 +915,7 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  width: 100%;
 }
 
 .events__section .event__div .inner__content {
