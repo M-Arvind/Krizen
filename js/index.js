@@ -4,7 +4,7 @@ const navitem = $(".nav__item");
 const dropdown = $(".dropdown");
 const body = $("body");
 let menuopen = false;
-
+$("#vid").play();
 // menu btn action
 menu_btn.click(function(){
     if(!menuopen){
@@ -33,3 +33,5 @@ menu_btn.click(function(){
     }
 
 })
+
+
