@@ -6,9 +6,16 @@
     align-items: center;
     background-color: white;
 
+    
+
     .footer__content {
         display: flex;
         // gap: 3rem;
+
+        .footer__top {
+            display: flex;
+            margin-bottom: 2rem;
+        }
 
         .events__links {
             border-right: 1.5px solid grey;
@@ -107,7 +114,7 @@
             .top__content {
                 display: flex;
                 justify-content: center;
-                margin-bottom: 2rem;
+                margin-bottom: 1.5rem;
                 a {
                     text-decoration: none;
                     padding: 1% 5%;
@@ -124,7 +131,7 @@
                 flex-direction: column;
                 align-items: center;
                 padding-right: 5%;
-                margin-bottom: 2rem;
+                margin-bottom: 1.5rem;
                 .info__mail {
                     display: flex;
                     // gap: 1rem;
@@ -140,6 +147,7 @@
                 display: flex;
                 justify-content: center;
                 align-items: center;
+                margin-bottom: 1.5rem;
                 // gap: 1rem;
                 p {
                     margin-right: 1rem;
@@ -150,6 +158,26 @@
                 width: 20px;
                 height: 20px;
             }
+        }
+    }
+
+    .college {
+        text-align: center;
+        img {
+            width: 55px;
+            height: 35px;
+            margin-bottom: 0.5rem;
+            object-fit: cover;
+        }
+
+        p {
+            color: black;
+            opacity: 90%;
+            font-size: .9rem;
+        }
+        
+        p + p {
+            margin-top: 0.5rem;
         }
     }
 }
