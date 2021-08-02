@@ -167,12 +167,12 @@
 
 .footer__section .footer__phone .phone__content .top__content a {
   text-decoration: none;
-  padding: 1% 5%;
   color: black;
 }
 
-.footer__section .footer__phone .phone__content .top__content a + a {
-  border-left: 1.5px solid #979797;
+.footer__section .footer__phone .phone__content .top__content p {
+  margin: 0 5%;
+  opacity: 60%;
 }
 
 .footer__section .footer__phone .phone__content .middle__content {
@@ -770,6 +770,10 @@
 
 .roundsContent li {
   margin-bottom: 1rem;
+}
+
+.roundsContent p {
+  margin-bottom: .5rem;
 }
 
 .iot {
