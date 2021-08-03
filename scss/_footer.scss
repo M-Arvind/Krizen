@@ -98,6 +98,11 @@
 
         .sm__image {
             width: 20px;
+            height: 20px;
+        }
+
+        .sm__image + .sm__image {
+            margin-left: 1rem;
         }
 
         
@@ -150,7 +155,6 @@
             .bottom__content {
                 display: flex;
                 justify-content: center;
-                align-items: center;
                 margin-bottom: 1.5rem;
                 // gap: 1rem;
                 p {
@@ -161,6 +165,10 @@
             .sm__image {
                 width: 20px;
                 height: 20px;
+            }
+
+            .sm__image + .sm__image {
+                margin-left: 1rem;
             }
         }
     }

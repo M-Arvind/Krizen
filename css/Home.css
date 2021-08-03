@@ -136,6 +136,11 @@
 
 .footer__section .footer__content .sm__image {
   width: 20px;
+  height: 20px;
+}
+
+.footer__section .footer__content .sm__image + .sm__image {
+  margin-left: 1rem;
 }
 
 .footer__section .footer__phone {
@@ -209,9 +214,6 @@
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
   margin-bottom: 1.5rem;
 }
 
@@ -222,6 +224,10 @@
 .footer__section .footer__phone .phone__content .sm__image {
   width: 20px;
   height: 20px;
+}
+
+.footer__section .footer__phone .phone__content .sm__image + .sm__image {
+  margin-left: 1rem;
 }
 
 .footer__section .college {
