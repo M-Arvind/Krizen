@@ -139,8 +139,8 @@
   height: 20px;
 }
 
-.footer__section .footer__content .sm__image + .sm__image {
-  margin-left: 1rem;
+.footer__section .footer__content .insta {
+  margin-right: 1rem;
 }
 
 .footer__section .footer__phone {
@@ -226,8 +226,8 @@
   height: 20px;
 }
 
-.footer__section .footer__phone .phone__content .sm__image + .sm__image {
-  margin-left: 1rem;
+.footer__section .footer__phone .phone__content .insta {
+  margin-right: 1rem;
 }
 
 .footer__section .college {
@@ -283,6 +283,13 @@
 
 .navigation .logo {
   width: 40px;
+}
+
+.navigation .skcetlogo {
+  height: 35px;
+  width: 170px;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 .navigation .nav {
@@ -500,6 +507,9 @@
   }
   .navigation .logo {
     width: 25px;
+  }
+  .navigation .skcetlogo {
+    width: 170px;
   }
   .navigation .nav .dropdown {
     display: none !important;

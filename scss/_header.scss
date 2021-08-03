@@ -13,6 +13,12 @@
         width: 40px;
     }
 
+    .skcetlogo {
+        height: 35px;
+        width: 170px;
+        object-fit: cover;
+    }
+
     .nav {
         display: flex;
         // gap: 3rem;
@@ -189,6 +195,10 @@
 
         .logo {
             width: 25px;
+        }
+
+        .skcetlogo {
+            width: 170px;
         }
 
         .nav {
