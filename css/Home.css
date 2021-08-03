@@ -792,6 +792,15 @@
   margin-bottom: .5rem;
 }
 
+.roundsContent h3 {
+  font-weight: 400;
+  letter-spacing: .5px;
+}
+
+.roundsContent .date {
+  margin-left: 1rem;
+}
+
 .iot {
   margin-top: 5rem;
 }
