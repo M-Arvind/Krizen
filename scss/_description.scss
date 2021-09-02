@@ -37,6 +37,30 @@
   letter-spacing: 0.5px;
 }
 
+.register + .register {
+  margin-left: 1.5rem;
+}
+
+.main_links {
+  display: flex;
+
+  .brochure {
+    display: flex;
+    align-items: center;
+
+    a {
+      text-decoration: none;
+      color: white;
+    }
+  }
+
+  .download {
+    margin-left: 0.5rem;
+    width: 15px;
+    height: 15px;
+  }
+}
+
 .aboutTitle,
 .detailsTitle,
 .contactsTitle {
@@ -95,12 +119,12 @@
   }
 
   p {
-    margin-bottom: .5rem;
+    margin-bottom: 0.5rem;
   }
 
   h3 {
     font-weight: 400;
-    letter-spacing: .5px;
+    letter-spacing: 0.5px;
   }
 }
 
@@ -148,8 +172,8 @@
     font-size: 1rem;
     margin-left: 0;
   }
-  
-  .themes{
+
+  .themes {
     margin-left: 2rem;
   }
 }
